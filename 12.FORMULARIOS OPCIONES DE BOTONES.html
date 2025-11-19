@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"> <!--PARA CODIFICIACIÓN DE CARACTERES OCCIDENTALES-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Compatibilidad con edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para adaptarse correctamente al navegador -->
+
+    <title>Cursos de HTML5 de Udemy</title>
+<!-- <style> </style> -->
+  </head>
+  <body>
+
+ <h1> FORMULARIOS </h1>
+<!--  -->  
+<form>
+
+  <fieldset>
+<!------------- INFORMACIÓN PERSONAL ------------->
+    <div>
+      <legend>Información personal</legend>
+      <label for="nombre">Nombre:</label> 
+      <input type="text" id="nombre" placeholder="Pincha en nombre..">
+    </div>
+
+    <div>
+      <label for="descripcion">Descripción:</label>
+      <textarea id="descripcion"></textarea>
+    </div>
+<!------------- INFORMACIÓN DE LOGIN ------------->
+    <div>
+      E-mail:
+      <input type="email">
+      Contraseña:
+      <input type="password">
+      
+    </div>
+<!------------- OTRA INFORMACIÓN ------------->
+    <div>
+      Radio:
+      <input type="radio" name="genero" id="hombre" value="hombre">
+      <label for="hombre">Hombre</label>
+      <input type="radio" name="genero" id="mujer" value="mujer">
+      <label for="mujer">Mujer</label>
+    </div>
+
+    <div>
+      <select>
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
+        <option value="otro">Otros</option>
+      </select>
+    </div>
+
+    <div>
+      Checkbox:
+      <label>
+        <input type="Checkbox"> Mayor de edad
+        <input type="Checkbox"> Menor de edad
+      </label>
+    </div>
+<!------------- OTRAS OPCIONES DE BOTONES ------------->
+<!------------- COLORES ------------->
+    <div>
+      Color:
+      <input type="color">
+    </div>    
+    
+<!------------- CALENDARIO ------------->
+    <div>
+      Fecha:
+      <input type="date">
+    </div>
+
+<!------------- SUBIR FICHERO ------------->
+    <div>
+      Fichero:
+      <input type="file">
+    </div>
+<!------------- SUBIR IMAGEN ------------->
+    <div>
+      Imagen:
+      <input type="image" src="imagenes/spotifyneonlogo.png" width="80">
+    </div>
+<!------------- MENSAJES OCULTOS (? ------------->
+    <div>
+      Oculto:
+      <input type="hidden" name="oculto" value="kelokemihermanocomotuta"> <!-- enviar información por detrás dentro del formulario  -->
+    </div>
+<!------------- INTRODUCIR SOLO NÚMEROS ------------->
+    <div>
+      Número:
+      <input type="number">
+    </div>
+<!------------- RANGO ------------->
+    <div>
+    <input type="RANGE" name="RANGO">
+   </div>
+  <!------------- BÚSQUEDA ------------->
+    <div>
+      Buscar:
+     <input type="search" name="buscar">
+     <button>Buscar</button>
+    </div>
+
+<!------------- TÉLEFONO ------------->
+  <div>
+    Buscar:
+     <input type="tel" name="telefono">
+  </div>
+
+
+<!------------- TIEMPO ------------->
+  <div>
+    Hora:
+    <input type="time">
+  </div>
+
+<!------------- MES, no se suele usar ------------->
+  <div>
+    Mes:
+    <input type="month">
+  </div>
+
+<!------------- URL de tipo texto------------->
+  <div>
+    Enlace:
+    <input type="url">
+  </div>
+<hr>
+<!------------- BARRAS DE PROGRESO ------------->
+  <div>
+    Barra de progreso:
+    <progress min="1" max="100" value="50"></progress>
+  </div>  
+
+<!------------- BARRAS DE PROGRESO ------------->
+  <div>
+    Metro:
+    <meter max="100" value="50"></meter>
+  </div>
+
+<!------------- LISTA DE DATOS ------------->
+  <div>
+    Lista de datos:
+    <input list="frutas" name="frutas"> <!-- LIST + ID, para seleccionar que datalist quiero mostrar -->
+    <datalist id="frutas"> <!-- ID -->
+      <option value="naranja">
+      <option value="pera">
+      <option value="uva">
+      <option value="sandia">
+      <option value="banana">
+    </datalist>
+
+  </div>
+
+  </fieldset>
+    <input type="submit" value="Enviar"> <!-- enviar formulario -->
+    <input type="reset" value="limpiar formulario"> <!-- vaciar el formulario a nuevo -->
+</form>
+
+<!-- 
+TEXTAREA      Me permite meter mas información como usuarioo, como una descripción
+FILEDSET      Organiza campos del formulario
+VALUE         Para que la información se envíe
+DATALIST      Lo mismo que select pero integrado dentro de un input y es oculto y sólo cuando sea necesario se usará.
+ -->  
+  </body>
+</html>
+

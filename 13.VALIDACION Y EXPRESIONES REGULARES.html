@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta es mi pagina web de repaso"/>
+    <title>Cursos de HTML5 de Udemy</title>
+<!-- <style> </style> -->
+  </head>
+  <body>
+
+ <h1> EXPRESIONES REGULARES EN FORMULARIOS </h1>
+ <!-----------  ------------>
+    
+    <h1>Validación</h1> <!-- COMPRUEBA QUE LOS DATOS INTRODUCIDOS SEAN VÁLIDOS -->
+    <form> 
+ <!----------- LIMITACIÓN TIPO TEXTO ------------> 
+        <input type="text" required
+                            minlength="5"
+                            maxlength="15"
+                            pattern="[A-Za-z ]+"
+        /> <!-- desde a A-Z MAYUSCULAS | Hasta la a-z minusculas | + que se pueda repetir varias veces | El espacio, que puede tener espacios-->
+
+ <!----------- LIMITACIÓN TIPO NÚMERICO ------------>
+    <input type="number" required
+                            max="20" min="5"
+
+        />
+
+        <input type="sumit" value="Enviar">
+    </form>
+   
+
+<!-- 
+REQUIRED    CAMPO OBLIGATORIO
+PARA TEXTO:
+MINLENGTH   MÍNIMO DE CARACTERES
+MAXLENGTH   MÁXIMO DE CARACTERES
+PATTERN     METER PATRONES como [A-Za-z ]+ 
+
+PARA NÚMERO:
+MAX         Valores superiores a X
+MIN         Valores inferiores a X
+ -->  
+  </body>
+</html>

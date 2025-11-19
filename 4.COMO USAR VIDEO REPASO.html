@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta es mi pagina web de repaso"/>
+    <title>Cursos de HTML5 de Udemy</title>
+<!-- <style> </style> -->
+  </head>
+  <body>
+
+ <h1>REPASO INSERTAR VIDEOS EN HTML5</h1>
+
+ <!------------   CON ATRIBUTOS ----------->
+    <!-- FORMA 1 -->
+    <video src="videos/noasignado.mp4" controls autoplay width="200px"> <!-- no se reproduce solo -->
+      Tu navegador no soporta la etiqueta de vídeo
+    </video>
+
+ <!------------   CON ATRIBUTOS PERO CON MUTED ----------->
+    <!-- FORMA 1 -->
+    <!-- FORMA 2 -->
+    <video src="videos/noasignado.mp4" controls autoplay muted width="200px"> <!-- sí se reproduce solo -->
+       Tu navegador no soporta la etiqueta de vídeo
+    </video>
+
+
+ <!------------   SIN ATRIBUTOS ----------->
+    <!-- FORMA 1 -->
+    <!-- FORMA 3 -->
+    <video src="videos/noasignado.mp4" width="200px"> <!-- no ocurre nada -->
+      Tu navegador no soporta la etiqueta de vídeo
+    </video>
+
+ <!------------------------------------------------------------------------>
+    <h2>PARA VIDEOS DE DIFERENTES FORMATOS </h2>
+    <video controls width="200px"> 
+      <source src="videos/noasignado.mp4" type="video/mp4"> <!-- indicar en <type> tipo de formato -->
+      Tu navegador no soporta la etiqueta de vídeo.
+
+       <source src="videos/noasignado.ogg" type="video/ogg"> <!-- indicar en <type> tipo de formato -->
+      Tu navegador no soporta la etiqueta de vídeo
+    </video>
+
+
+
+
+
+
+<!-- type="" para decir en que formato es el video que vamos a usar  -->  
+  </body>
+</html>
