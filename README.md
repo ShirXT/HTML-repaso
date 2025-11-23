@@ -1,4 +1,4 @@
-En este proyecto practiqué la creación de una página web usando HTML5 y CSS, aplicando etiquetas semánticas como <header>, <nav>, <section>, <article>, <aside> y <footer>.
+En este proyecto practiqué la creación de una página web usando HTML5 y CSS, aplicando etiquetas semánticas como header, nav, section, article, aside y footer.
 
 Sé que hay algunas cosas que podrían mejorar en cuanto a semántica. Por ejemplo, se incluyó un <br> en la primera línea solo para visualizar claramente los cambios mientras practicaba.
 
