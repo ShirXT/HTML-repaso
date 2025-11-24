@@ -13,3 +13,10 @@ Estructura semántica básica de HTML5.
 Visualización de contenedores mediante bordes y colores de fondo para aprender cómo los elementos interactúan.
 
 Este repositorio sirve como práctica y referencia personal para entender cómo se comportan los elementos en HTML y CSS y cómo ajustar el diseño mientras se aprende.
+
+SOBRE LOS ÚLTIMOS ARCHIVOS:
+- contacto
+- dieta
+- index
+- multimedia
+Son el trabajo de repaso final después de los ejercicios.
